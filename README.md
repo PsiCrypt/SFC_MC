@@ -13,9 +13,10 @@
 
 > **Key features:**
 > - Super high-performance (faster than chacha20)
-> - Super simple
+> - Super simple and easy
+> - Easy change of parameters for experiments
 > - Easily optimized for multithreading and new hardware architectures
-> - Passed all tests from NIST SP 800-22 Statistical Test Suite.
+> - Passed tests from NIST SP 800-22 Statistical Test Suite.
 
 ---
 
@@ -42,8 +43,12 @@ Random test: 100MB random block, random key & nonce.
 
 
 NIST STS Results:
+
 [ChaCha20 each time a different random buffer and random key](Results/chachaRND.txt)
 
+[SFCMS each time a different random buffer and random key](Results/SFMC_RND.txt)
+
+[SFCMS each time filled with zeros buffer and a different random key](Results/SFMC_0.txt)
 
 
 ## 🛡 License
