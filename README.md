@@ -33,14 +33,14 @@
 ---
 
 ## 🧪 Benchmarks
-Encryption speed: ~5%-20% faster than ChaCha20 on Intel Xeon E5-2670 (single core)
+Encryption speed: ~5%-20% faster than ChaCha20
 
 Entropy: =8.00000 bits/byte stable
 
 Autocorellation: ->0  [0,0.0004)
 
 ## 📊 Benchmark Results
-Intel Xeon E5-2670 (single core)
+Intel Xeon E5-2670 v2 (single core)
 builded in one application for testing without optimizations. compiler LLVM 142
 | Cipher    | Speed (MB/s) | Entropy | Autocorrelation |
 |-----------|--------------|---------|-----------------|
