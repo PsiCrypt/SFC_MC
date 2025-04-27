@@ -43,7 +43,7 @@ NIST STS Results:
 
 [ChaCha20 each time a different random buffer and random key](Results/chachaRND.txt)
 
-[SFCMS each time a different random buffer and random key](Results/SFMC_RND.txt)
+[SFCMS each time a different random buffer and random key](Results/SFMC_RND)
 
 [SFCMS each time filled with zeros buffer and a different random key](Results/SFMC_0.txt)
 
