@@ -1,9 +1,9 @@
 # SFC_MC
-Super Fast Compact Multifunctional Cipher
+
 
 # 🚀 SFC_MC
 
-> Licensed under the MIT License © 2025 PsyCrypt Project. | Лицензировано по MIT © 2025 PsyCrypt Project.
+> Super Fast Compact Multifunctional Cipher
 
 ---
 
@@ -44,6 +44,13 @@ Random test: 100MB random block, random key & nonce.
 
 
 NIST STS: Passed all tests
+
+
+## 🛡 License
+This project is licensed under the MIT License.
+Free for personal, academic, and commercial use with attribution.
+
+© 2025 PsyCrypt Project. All rights reserved.
 
 
 
