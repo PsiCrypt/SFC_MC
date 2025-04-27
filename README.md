@@ -4,6 +4,21 @@
 
 ---
 
+<p align="center">
+  <a href="https://github.com/PsiCrypt/SFC_MC/actions">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge" alt="Build Status">
+  </a>
+  <a href="https://github.com/PsiCrypt/SFC_MC/issues">
+    <img src="https://img.shields.io/github/issues-raw/PsiCrypt/SFC_MC?style=for-the-badge" alt="Open Issues">
+  </a>
+  <a href="https://github.com/PsiCrypt/SFC_MC/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" alt="License">
+  </a>
+  <a href="https://github.com/PsiCrypt/SFC_MC">
+    <img src="https://img.shields.io/github/last-commit/PsiCrypt/SFC_MC?style=for-the-badge" alt="Last Commit">
+  </a>
+</p>
+
 ## 📖 Description
 
 **SFCMC** is a high-performance, compact simple cryptor.  
