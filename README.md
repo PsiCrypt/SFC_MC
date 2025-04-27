@@ -37,7 +37,7 @@ Encryption speed: ~5%-20% faster than ChaCha20
 
 Entropy: =8.00000 bits/byte stable
 
-Autocorellation: ->0  [0,0.0004)
+Autocorellation: ~0.0000  (0.0004 max)
 
 ## 📊 Benchmark Results
 Intel Xeon E5-2670 v2 (single core)
