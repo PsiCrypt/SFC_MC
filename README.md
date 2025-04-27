@@ -52,7 +52,7 @@ NIST STS Results:
 This project is licensed under the MIT License.
 Free for personal, academic, and commercial use with attribution.
 
-© 2025 PsyCrypt Project. All rights reserved.
+© 2025 PsiCrypt Project. All rights reserved.
 
 
 
