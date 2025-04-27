@@ -69,7 +69,7 @@ NIST STS Results:
 
 - [Bite card ChaCha20](https://github.com/PsiCrypt/SFC_MC/blob/main/Img/ChaCha20.png)
 
-  Use [Binary Visualizer](https://binvis.io/)
+ - [Bite Map SFCMC](https://github.com/PsiCrypt/SFC_MC/blob/main/Img/SFCMC_bitmap.png)
 
 
 ## 🛡 License
