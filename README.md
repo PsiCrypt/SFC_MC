@@ -1,7 +1,4 @@
-# SFC_MC
-
-
-# 🚀 SFC_MC
+# 🚀 SFCMC
 
 > Super Fast Compact Multifunctional Cipher
 
