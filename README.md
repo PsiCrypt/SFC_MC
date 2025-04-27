@@ -20,7 +20,7 @@ Super Fast Compact Multifunctional Cipher
 ---
 
 ## 🧪 Benchmarks
-Encryption speed: ~5% faster than ChaCha20 on Intel Xeon E5-2670 (single core)
+Encryption speed: ~5%-20% faster than ChaCha20 on Intel Xeon E5-2670 (single core)
 
 Entropy: =8.00000 bits/byte stable
 
@@ -28,6 +28,7 @@ Autocorellation: ->0  [0,0.0004)
 
 ## 📊 Benchmark Results
 Intel Xeon E5-2670 (single core)
+builded in one application for testing without optimizations. compiler LLVM 142
 | Cipher    | Speed (MB/s) | Entropy | Autocorrelation |
 |-----------|--------------|---------|-----------------|
 | ChaCha20  | 205.28       | 8.0000  | -0.0004          |
