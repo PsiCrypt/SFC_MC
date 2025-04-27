@@ -41,9 +41,9 @@ builded in one application for testing without optimizations. compiler LLVM 142
 Random test: 100MB random block, random key & nonce.
 
 
+NIST STS Results:
+[ChaCha20 each time a different random buffer and random key](Results/chachaRND.txt)
 
-
-NIST STS: Passed all tests
 
 
 ## 🛡 License
