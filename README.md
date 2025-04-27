@@ -6,7 +6,7 @@
 
 ## 📖 Description
 
-**SFC_MC** is a high-performance, compact simple cryptor.  
+**SFCMC** is a high-performance, compact simple cryptor.  
 
 > **Key features:**
 > - Super high-performance (faster than chacha20)
