@@ -20,7 +20,7 @@
 
 #include "sfcms.h"
 //-------------------------------------------------------------------------
-//	      SFCMC (c) 2025 Lim Troev (pseudonim) [PsyCrypt Project]
+//	      SFCMC (c) 2025 Lim Troev (pseudonim) [PsiCrypt Project]
 //-------------------------------------------------------------------------
 //Core SFCMC ->
 uint32_t __forceinline gen_keystream_byte(size_t idx,const PSFCMC psfmc)
