@@ -206,3 +206,4 @@ is approximately = 81 for a sample size = 85 binary sequences.
 For further guidelines construct a probability table using the MAPLE program
 provided in the addendum section of the documentation.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+block 1024MB size
