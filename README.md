@@ -63,6 +63,15 @@ NIST STS Results:
 [SFCMS each time filled with zeros buffer and a different random key](Results/SFCMC_0.txt)
 
 
+## 📚 Visualizations 
+
+- [Bite card SFCMC](https://github.com/PsiCrypt/SFC_MC/blob/main/Img/CFCMC.png)
+
+- [Bite card ChaCha20](https://github.com/PsiCrypt/SFC_MC/blob/main/Img/ChaCha20.png)
+
+  Use [Binary Visualizer](https://binvis.io/)
+
+
 ## 🛡 License
 This project is licensed under the MIT License.
 Free for personal, academic, and commercial use with attribution.
