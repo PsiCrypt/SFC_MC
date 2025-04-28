@@ -7,7 +7,7 @@
 #include "openssl/evp.h"
 
 //For Core
-typedef __declspec(align(64)) struct _MSC512
+typedef __declspec(align(64)) struct _SFCMC
 {
 	uint8_t master_key[MASTER_KEY_LEN];
 	uint8_t hash_key[KEY_HASH_SIZE];
@@ -115,7 +115,7 @@ void calculate_histogram(uint8_t* data, size_t size, uint32_t* histogram)
 	}
 }
 
-// Функция для расчета энтропии
+// Г”ГіГ­ГЄГ¶ГЁГї Г¤Г«Гї Г°Г Г±Г·ГҐГІГ  ГЅГ­ГІГ°Г®ГЇГЁГЁ
 double calculate_entropy(uint32_t* histogram, size_t size)
 {
 	double entropy = 0.0;
@@ -128,7 +128,7 @@ double calculate_entropy(uint32_t* histogram, size_t size)
 	return entropy;
 }
 
-// Функция для расчета автокорреляции
+// Г”ГіГ­ГЄГ¶ГЁГї Г¤Г«Гї Г°Г Г±Г·ГҐГІГ  Г ГўГІГ®ГЄГ®Г°Г°ГҐГ«ГїГ¶ГЁГЁ
 double calculate_autocorrelation(uint8_t* data, size_t size)
 {
 	if(size < 2) return 0.0;
@@ -146,10 +146,10 @@ double calculate_autocorrelation(uint8_t* data, size_t size)
 		autocov += a * b;
 		var += a * a;
 	}
-	// добавим последний элемент в дисперсию
+	// Г¤Г®ГЎГ ГўГЁГ¬ ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ© ГЅГ«ГҐГ¬ГҐГ­ГІ Гў Г¤ГЁГ±ГЇГҐГ°Г±ГЁГѕ
 	var += (data[size - 1] - mean) * (data[size - 1] - mean);
 
-	if(var == 0.0) return 0.0; // избегаем деления на 0
+	if(var == 0.0) return 0.0; // ГЁГ§ГЎГҐГЈГ ГҐГ¬ Г¤ГҐГ«ГҐГ­ГЁГї Г­Г  0
 
 	return autocov / var;
 }
