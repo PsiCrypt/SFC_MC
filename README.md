@@ -117,11 +117,11 @@ NIST STS Results:
 - [C source core - single thread](https://github.com/PsiCrypt/SFC_MC/blob/main/src/sfcmc.c)
 - [C++ source code with test multi/single threading for MSVC](https://github.com/PsiCrypt/SFC_MC/tree/main/src/MSVC)
 
-The source code "as is" is intended to demonstrate the principle of the algorithm without optimizations. You can improve it and unsubscribe here.
+The source code is intended to demonstrate the principle of the algorithm without optimizations. You can improve it and unsubscribe here.
 
 ## 🛡 License
 This project is licensed under the MIT License.
-Free for personal, academic, and commercial use with attribution.
+Free for personal and academic use with attribution.
 
 © 2025 PsiCrypt Project. All rights reserved.
 
