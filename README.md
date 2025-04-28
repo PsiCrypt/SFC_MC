@@ -43,54 +43,56 @@ Autocorellation: ~0.0000  (0.0004 max)
 Intel Xeon E5-2670 v2 (single core)
 builded in one application for testing without optimizations. compiler LLVM 142
 
-<table>
-  <thead>
-    <tr>
-      <th>Cipher</th>
-      <th>Speed (MB/s)</th>
-      <th>Entropy</th>
-      <th>Autocorrelation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ChaCha20</td>
-      <td>205.28</td>
-      <td>8.0000</td>
-      <td>-0.0004</td>
-    </tr>
-    <tr>
-      <td>SFCMS</td>
-      <td>216.19</td>
-      <td>8.0000</td>
-      <td>-0.0000</td>
-    </tr>
-    <tr>
-      <td>ChaCha20</td>
-      <td>208.09</td>
-      <td>8.0000</td>
-      <td>-0.0004</td>
-    </tr>
-    <tr>
-      <td>SFCMS</td>
-      <td>217.36</td>
-      <td>8.0000</td>
-      <td>-0.0002</td>
-    </tr>
-    <tr>
-      <td>ChaCha20</td>
-      <td>208.00</td>
-      <td>8.0000</td>
-      <td>-0.0003</td>
-    </tr>
-    <tr>
-      <td>SFCMS</td>
-      <td>219.59</td>
-      <td>8.0000</td>
-      <td>-0.0001</td>
-    </tr>
-  </tbody>
-</table>
+<div style="overflow-x:auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Cipher</th>
+        <th>Speed (MB/s)</th>
+        <th>Entropy</th>
+        <th>Autocorrelation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ChaCha20</td>
+        <td>205.28</td>
+        <td>8.0000</td>
+        <td>-0.0004</td>
+      </tr>
+      <tr>
+        <td>SFCMS</td>
+        <td>216.19</td>
+        <td>8.0000</td>
+        <td>-0.0000</td>
+      </tr>
+      <tr>
+        <td>ChaCha20</td>
+        <td>208.09</td>
+        <td>8.0000</td>
+        <td>-0.0004</td>
+      </tr>
+      <tr>
+        <td>SFCMS</td>
+        <td>217.36</td>
+        <td>8.0000</td>
+        <td>-0.0002</td>
+      </tr>
+      <tr>
+        <td>ChaCha20</td>
+        <td>208.00</td>
+        <td>8.0000</td>
+        <td>-0.0003</td>
+      </tr>
+      <tr>
+        <td>SFCMS</td>
+        <td>219.59</td>
+        <td>8.0000</td>
+        <td>-0.0001</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 Random test: 100MB random block, random key & nonce.
