@@ -41,7 +41,7 @@ Autocorellation: ~0.0000  (0.0004 max)
 
 ## 📊 Benchmark Results
 Intel Xeon E5-2670 v2 (single core)
-builded in one application for testing without optimizations. compiler LLVM 142
+CFCMC and [ChaCha20](https://github.com/shiffthq/chacha20/tree/master/src) builded in one application for testing without optimizations. compiler LLVM 142
 
 <div style="overflow-x:auto;">
   <table>
