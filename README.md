@@ -42,14 +42,55 @@ Autocorellation: ~0.0000  (0.0004 max)
 ## 📊 Benchmark Results
 Intel Xeon E5-2670 v2 (single core)
 builded in one application for testing without optimizations. compiler LLVM 142
-| Cipher    | Speed (MB/s) | Entropy | Autocorrelation |
-|-----------|--------------|---------|-----------------|
-| ChaCha20  | 205.28       | 8.0000  | -0.0004          |
-| SFCMS     | 216.19       | 8.0000  | -0.0000          |
-| ChaCha20  | 208.09       | 8.0000  | -0.0004          |
-| SFCMS     | 217.36       | 8.0000  | -0.0002          |
-| ChaCha20  | 208.00       | 8.0000  | -0.0003          |
-| SFCMS     | 219.59       | 8.0000  | -0.0001          |
+<table>
+  <thead>
+    <tr>
+      <th>Cipher</th>
+      <th>Speed (MB/s)</th>
+      <th>Entropy</th>
+      <th>Autocorrelation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ChaCha20</td>
+      <td>205.28</td>
+      <td>8.0000</td>
+      <td>-0.0004</td>
+    </tr>
+    <tr>
+      <td>SFCMS</td>
+      <td>216.19</td>
+      <td>8.0000</td>
+      <td>-0.0000</td>
+    </tr>
+    <tr>
+      <td>ChaCha20</td>
+      <td>208.09</td>
+      <td>8.0000</td>
+      <td>-0.0004</td>
+    </tr>
+    <tr>
+      <td>SFCMS</td>
+      <td>217.36</td>
+      <td>8.0000</td>
+      <td>-0.0002</td>
+    </tr>
+    <tr>
+      <td>ChaCha20</td>
+      <td>208.00</td>
+      <td>8.0000</td>
+      <td>-0.0003</td>
+    </tr>
+    <tr>
+      <td>SFCMS</td>
+      <td>219.59</td>
+      <td>8.0000</td>
+      <td>-0.0001</td>
+    </tr>
+  </tbody>
+</table>
+
 
 Random test: 100MB random block, random key & nonce.
 
