@@ -125,6 +125,8 @@ The source code is intended to demonstrate the principle of the algorithm withou
 This project is licensed under the MIT License.
 Free for personal and academic use with attribution.
 
+E-mail: psicrypt@keemail.me
+
 © 2025 PsiCrypt Project. All rights reserved.
 
 
