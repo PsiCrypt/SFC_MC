@@ -1,6 +1,6 @@
 # 🚀 SFCMC
 
-> Super Fast Compact Multifunctional Cipher
+> [Super Fast Compact Multifunctional Cipher](https://github.com/PsiCrypt/SFC_MC)
 
 ---
 
