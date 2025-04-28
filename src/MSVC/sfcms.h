@@ -38,8 +38,7 @@ void sha3_512_hash(const uint8_t* input, size_t in_len,
 	EVP_MD_CTX_destroy(mdctx);
 }
 
-void inline derive_key_shake256(const uint8_t* in, size_t in_len,
-								uint8_t* out, size_t out_len)
+void inline derive_key_shake256(const uint8_t* in, size_t in_len, uint8_t* out, size_t out_len)
 {
 	EVP_MD_CTX* ctx = EVP_MD_CTX_new();
 	EVP_DigestInit_ex(ctx, EVP_shake256(), NULL);
@@ -61,7 +60,8 @@ static __forceinline uint32_t arx_round(uint32_t v, uint32_t c)
 static __forceinline size_t fast_idx(uint64_t rnd, size_t N)
 {
 	uint64_t high;
-	(void)_umul128(rnd, (uint64_t)N, &high); // low = rnd * N mod 2^64, high = floor(rnd*N/2^64)
+	// low = rnd * N mod 2^64, high = floor(rnd*N/2^64)
+	(void)_umul128(rnd, (uint64_t)N, &high); 
 	return (size_t)high;
 }
 
@@ -115,7 +115,6 @@ void calculate_histogram(uint8_t* data, size_t size, uint32_t* histogram)
 	}
 }
 
-// Ôóíêöèÿ äëÿ ðàñ÷åòà ýíòðîïèè
 double calculate_entropy(uint32_t* histogram, size_t size)
 {
 	double entropy = 0.0;
@@ -128,7 +127,6 @@ double calculate_entropy(uint32_t* histogram, size_t size)
 	return entropy;
 }
 
-// Ôóíêöèÿ äëÿ ðàñ÷åòà àâòîêîððåëÿöèè
 double calculate_autocorrelation(uint8_t* data, size_t size)
 {
 	if(size < 2) return 0.0;
@@ -146,10 +144,9 @@ double calculate_autocorrelation(uint8_t* data, size_t size)
 		autocov += a * b;
 		var += a * a;
 	}
-	// äîáàâèì ïîñëåäíèé ýëåìåíò â äèñïåðñèþ
 	var += (data[size - 1] - mean) * (data[size - 1] - mean);
 
-	if(var == 0.0) return 0.0; // èçáåãàåì äåëåíèÿ íà 0
+	if(var == 0.0) return 0.0;
 
 	return autocov / var;
 }
