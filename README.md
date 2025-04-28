@@ -1,4 +1,4 @@
-# 🚀 SFCMC
+# 🚀 [SFCMC](https://github.com/PsiCrypt/SFC_MC)
 
 > Super Fast Compact Multifunctional Cipher
 
