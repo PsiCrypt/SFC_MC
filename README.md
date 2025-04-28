@@ -113,6 +113,11 @@ NIST STS Results:
 
 - [Bite Map SFCMC](https://github.com/PsiCrypt/SFC_MC/blob/main/Img/SFCMC_bitmap.png)
 
+## 📚 Source cose
+- [C source core - single thread](https://github.com/PsiCrypt/SFC_MC/blob/main/src/sfcmc.c)
+- [C++ source code with test multi/single threading for MSVC](https://github.com/PsiCrypt/SFC_MC/tree/main/src/MSVC)
+
+The source code "as is" is intended to demonstrate the principle of the algorithm without optimizations. You can improve it and unsubscribe here.
 
 ## 🛡 License
 This project is licensed under the MIT License.
