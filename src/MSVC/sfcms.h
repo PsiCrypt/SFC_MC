@@ -82,15 +82,6 @@ typedef __declspec(align(64))  struct _ThreadParams
 }ThreadParams,*PThreadParams;
 
 
-
-uint32_t TestRandom(void)
-{
-	uint32_t r = 0;
-	_rdrand32_step(&r);
-	return r;
-}
-
-
 typedef struct _Timer
 {
 	LARGE_INTEGER start, freq;
