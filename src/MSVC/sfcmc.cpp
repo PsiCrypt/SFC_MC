@@ -118,15 +118,21 @@ int main()
 
 	for(int i = 0; i < DATA_SIZE; i++)
 	{
-		data[i] = TestRandom();
+		uint64_t r = 0;
+		_rdrand64_step(&r);
+		data[i] = (uint8_t)(r ^ i & 0xFF);
 	}
-	for(int i = 0; i < 64; ++i)
+	for(int i = 0; i < MASTER_KEY_LEN; ++i)
 	{
-		master_key[i] = TestRandom();
+		uint64_t r = 0;
+		_rdrand64_step(&r);
+		master_key[i] = (uint8_t)(r ^ i & 0xFF);
 	}
-	for(int i = 0; i < 32; i++)
+	for(int i = 0; i < NONCE_LEN; i++)
 	{
-		nonce[i] = TestRandom();
+		uint64_t r = 0;
+		_rdrand64_step(&r);
+		nonce[i] = (uint8_t)(r ^ i & 0xFF);
 	}
 	//here is a working example of a method for obtaining high-entropy data,
 	//but in real conditions you need to obtain the master key hash and nonce 
